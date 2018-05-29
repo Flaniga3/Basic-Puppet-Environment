@@ -17,6 +17,7 @@ class windows_core::setup () {
   
   package {'vagrant':
     provider => chocolatey,
+    require  => Package['virtualbox'],
   }
   
   package {'docker':
