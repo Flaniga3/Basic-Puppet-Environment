@@ -22,4 +22,8 @@ class windows_core::setup () {
   package {'docker':
     provider => chocolatey,
   }
+  
+  package {'vscode': 
+    provider => chocolatey,
+  }
 }
