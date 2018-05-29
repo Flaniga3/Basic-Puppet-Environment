@@ -6,4 +6,20 @@ class windows_core::setup () {
     ensure  => present,
     content => "Hello World!",
   }
+  
+  package {'virtualbox':
+    provider => chocolatey,
+  }
+  
+  package {'googlechrome':
+    provider => chocolatey,
+  }
+  
+  package {'vagrant':
+    provider => chocolatey,
+  }
+  
+  package {'docker':
+    provider => chocolatey,
+  }
 }
