@@ -1,6 +1,6 @@
 # Installs key software for windows servers
 class windows_core::setup () {
-  include vagrant
+  # include vagrant
 
   class { 'vscode':
     package_ensure                => 'present',
