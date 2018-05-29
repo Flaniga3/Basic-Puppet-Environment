@@ -1,2 +1,2 @@
 ---
-include windows_core::setup
+class windows_core::setup

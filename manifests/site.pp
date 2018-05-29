@@ -1,1 +1,1 @@
-include windows_core::setup
+hiera_include
