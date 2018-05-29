@@ -26,4 +26,8 @@ class windows_core::setup () {
   package {'vscode': 
     provider => chocolatey,
   }
+  
+  package {'git':
+    provider => chocolatey
+  }
 }
