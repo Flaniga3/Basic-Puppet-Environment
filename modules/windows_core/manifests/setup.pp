@@ -1,34 +1,17 @@
 # Installs key software for windows servers
 class windows_core::setup () {
-  include chocolatey
-  
-  file { 'C:\Test-File.txt':
-    ensure  => present,
-    content => "Hello World!",
-  }
-  
-  package {'virtualbox':
-    provider => chocolatey,
-  }
-  
-  package {'googlechrome':
-    provider => chocolatey,
-  }
-  
-  package {'vagrant':
-    provider => chocolatey,
-    require  => Package['virtualbox'],
-  }
-  
-  package {'docker':
-    provider => chocolatey,
-  }
-  
-  package {'vscode': 
-    provider => chocolatey,
-  }
-  
-  package {'git':
+  require chocolatey
+
+  $package_list = [
+    'virtualbox',
+    'googlechrome',
+    'vagrant',
+    'docker',
+    'vscode',
+    'git'
+  ]
+
+  package {$package_list:
     provider => chocolatey
   }
 }
