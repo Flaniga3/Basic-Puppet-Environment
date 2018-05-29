@@ -6,4 +6,9 @@ class windows_core::setup () {
   class { 'vscode':
     package_ensure => 'present',
   }
+  
+  file {'C:\Test-File.txt':
+    ensure  => present,
+    content => "Hello World!",
+  }
 }
