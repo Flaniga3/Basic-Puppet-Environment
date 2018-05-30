@@ -1,0 +1,23 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    puppetlabs-chocolatey (3.0.0)
+      puppetlabs-powershell (< 3.0.0, >= 1.0.1)
+      puppetlabs-registry (< 3.0.0, >= 1.0.0)
+      puppetlabs-stdlib (< 5.0.0, >= 4.6.0)
+    puppetlabs-powershell (2.1.5)
+    puppetlabs-registry (2.0.1)
+    puppetlabs-stdlib (4.25.1)
+
+GIT
+  remote: https://github.com/Flaniga3/puppet-windows_setup.git
+  ref: master
+  sha: bf139031d8f54dbad19a5eb1e7490b8ced164ee1
+  specs:
+    flaniga3-windows_setup (0.1.0)
+      puppetlabs-chocolatey (>= 0)
+
+DEPENDENCIES
+  flaniga3-windows_setup (= 0.1.0)
+  puppetlabs-chocolatey (= 3.0.0)
+
