@@ -30,5 +30,5 @@ mod 'flaniga3-windows_setup', '0.1.0',
   :tag => '0.1.0'
 
 mod 'flaniga3-redhat_setup', '0.1.0',
-  :git    => 'https://github.com/Flaniga3/puppet-redhat_setup.git',
-  :branch => 'InitialFeaturesAndFixes'
+  :git => 'https://github.com/Flaniga3/puppet-redhat_setup.git,
+  :tag => '0.1.0'
