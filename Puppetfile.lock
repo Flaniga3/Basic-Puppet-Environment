@@ -11,8 +11,8 @@ FORGE
 
 GIT
   remote: https://github.com/Flaniga3/puppet-redhat_setup.git
-  ref: InitialFeaturesAndFixes
-  sha: eb2f16fb00e128218228a65fd9a7e26c922ebf96
+  ref: 0.1.0
+  sha: 8952a3272e9c30ea049ef6e244f2916b368126b1
   specs:
     flaniga3-redhat_setup (0.1.0)
 
