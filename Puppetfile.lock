@@ -10,6 +10,13 @@ FORGE
     puppetlabs-stdlib (4.25.1)
 
 GIT
+  remote: https://github.com/Flaniga3/puppet-redhat_setup.git
+  ref: InitialFeaturesAndFixes
+  sha: eb2f16fb00e128218228a65fd9a7e26c922ebf96
+  specs:
+    flaniga3-redhat_setup (0.1.0)
+
+GIT
   remote: https://github.com/Flaniga3/puppet-windows_setup.git
   ref: 0.1.0
   sha: adb0dd4ffc7736ae463d5e8d3ce0fa2d889f8eda
@@ -18,6 +25,7 @@ GIT
       puppetlabs-chocolatey (>= 0)
 
 DEPENDENCIES
+  flaniga3-redhat_setup (= 0.1.0)
   flaniga3-windows_setup (= 0.1.0)
   puppetlabs-chocolatey (= 3.0.0)
 
