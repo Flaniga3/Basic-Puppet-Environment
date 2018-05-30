@@ -11,8 +11,8 @@ FORGE
 
 GIT
   remote: https://github.com/Flaniga3/puppet-windows_setup.git
-  ref: master
-  sha: bf139031d8f54dbad19a5eb1e7490b8ced164ee1
+  ref: 0.1.0
+  sha: adb0dd4ffc7736ae463d5e8d3ce0fa2d889f8eda
   specs:
     flaniga3-windows_setup (0.1.0)
       puppetlabs-chocolatey (>= 0)
