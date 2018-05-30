@@ -27,4 +27,4 @@ mod 'puppetlabs-chocolatey', '3.0.0'
 
 mod 'flaniga3-windows_setup', '0.1.0', 
   :git    => 'https://github.com/Flaniga3/puppet-windows_setup.git',
-  :commit => 'f4343ec'
+  :tag => '0.1.0'
